@@ -1,0 +1,92 @@
+/* GLOBAL */
+body{
+    background: #f2f2f2;
+}
+
+/* NAVEGACION */
+#electricblue{
+    color: #0080ff;
+}
+.navbar-fixed{
+    height: 0;
+
+}
+nav{
+    /* background:url(../images/background/background-nav.png); */
+    background:rgba(0, 0, 0, 0.377);
+}
+
+/* INICIO */
+
+.beneficios{
+    border: 1px dashed #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #fff;
+}
+
+.nuestrosplanes img{
+    padding: 20px;
+}
+.nuevo{
+    background: rgb(0,7,36);
+    background: -moz-linear-gradient(90deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 38%, rgba(158,0,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 38%, rgba(158,0,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 38%, rgba(158,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000724",endColorstr="#9e00ff",GradientType=1);
+}
+.nuevo a{
+    margin: 10px;
+}
+
+/* BLOG */
+.articuloblog h5{
+    color:#0080ff;
+}
+.articuloblog img{
+    padding: 20px;
+}
+
+/* CONTACTO */
+.mapa{
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+}
+
+/* INSTAGRAM */
+.instagram{
+    background: url(images/inicio/otro4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+.instagram a{
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.instagram a:hover{
+    background-color: #ccc;
+    text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer{
+    background: rgb(0,7,36);
+    background: -moz-linear-gradient(257deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 38%, rgba(158,0,255,1) 100%);
+    background: -webkit-linear-gradient(257deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 38%, rgba(158,0,255,1) 100%);
+    background: linear-gradient(257deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 38%, rgba(158,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000724",endColorstr="#9e00ff",GradientType=1);
+}
