@@ -18,6 +18,21 @@
 </head>
 
 <body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <form action="#">
+            <input placeholder="E-mail" id="email" type="email" class="validate">
+            <input placeholder="Password" id="password" type="password" class="validate">
+            <span class="helper-text" data-error="Necesario e-mail" data-success=""></span>
+            <button class="btn waves-effect waves-light btn-large indigo accent-2" type="submit" name="action" style="width: 100%">Log In
+                <i class="material-icons right">send</i>
+            </button>
+            <a class="grey-text" href="#">
+                No tengo cuenta
+            </a>
+        </form>
+    </ul>
+
     <!-- MENU NAVEGACION -->
     <div class="navbar-fixed hide-on-med-and-down">
         <nav>
@@ -42,7 +57,7 @@
                         <a class="waves-effect" href="contacto.html">Contacto</a>
                     </li>
                     <li>
-                        <a class="waves-effect" href="#">
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">
                             <i class="large material-icons">face</i>
                         </a>
                     </li>
@@ -72,7 +87,7 @@
         </li>
         <li>
             <a href="#!">
-                <i class="material-icons">cloud</i>First Link With Icon</a>
+                <i class="material-icons">face</i>Conectado</a>
         </li>
 
         <li>
@@ -130,7 +145,7 @@
 
 
 
-                <div class="col s6 m3">
+                <div class="col s6 l3">
                     <div class="beneficios">
                         <img src="images/iconos/beneficio1.png" alt="beneficio1">
                         <h5>Lorem Ipsum</h5>
@@ -138,7 +153,7 @@
                     </div>
                 </div>
 
-                <div class="col s6 m3">
+                <div class="col s6 l3">
                     <div class="beneficios">
                         <img src="images/iconos/beneficio4.png" alt="beneficio2">
                         <h5>Lorem Ipsum</h5>
@@ -146,7 +161,7 @@
                     </div>
                 </div>
 
-                <div class="col s6 m3">
+                <div class="col s6 l3">
                     <div class="beneficios">
                         <img src="images/iconos/beneficio2.png" alt="beneficio3">
                         <h5>Lorem Ipsum</h5>
@@ -154,7 +169,7 @@
                     </div>
                 </div>
 
-                <div class="col s6 m3">
+                <div class="col s6 l3">
                     <div class="beneficios">
                         <img src="images/iconos/beneficio3.png" alt="beneficio3">
                         <h5>Lorem Ipsum</h5>
@@ -256,18 +271,18 @@
                         <h5 class="center-align">Nuestros Clientes</h5>
                         <p class="center-align">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, dicta.</p>
                     </div>
-                    <div class="col s12 m3">
+                    <div class="col s12 m6 l3">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/personas/testimonio (1).jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Experiencia 1
+                                <span class="card-title activator grey-text text-darken-4">Lorem
                                     <i class="material-icons right">add_circle_outline</i>
                                 </span>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Experiencia 1
+                                <span class="card-title grey-text text-darken-4">Lorem
                                     <i class="material-icons right">close</i>
                                 </span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores deserunt modi
@@ -275,18 +290,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m3">
+                    <div class="col s12 m6 l3">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/personas/testimonio (2).jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Experiencia 2
+                                <span class="card-title activator grey-text text-darken-4">Lorem
                                     <i class="material-icons right">add_circle_outline</i>
                                 </span>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Experiencia 2
+                                <span class="card-title grey-text text-darken-4">Lorem
                                     <i class="material-icons right">close</i>
                                 </span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores deserunt modi
@@ -294,18 +309,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m3">
+                    <div class="col s12 m6 l3">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/personas/persona4.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Experiencia 3
+                                <span class="card-title activator grey-text text-darken-4">Lorem
                                     <i class="material-icons right">add_circle_outline</i>
                                 </span>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Experiencia 3
+                                <span class="card-title grey-text text-darken-4">Lorem
                                     <i class="material-icons right">close</i>
                                 </span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores deserunt modi
@@ -313,18 +328,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m3">
+                    <div class="col s12 m6 l3">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/personas/persona2.jpg">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Experiencia 4
+                                <span class="card-title activator grey-text text-darken-4">Lorem
                                     <i class="material-icons right">add_circle_outline</i>
                                 </span>
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Experiencia 4
+                                <span class="card-title grey-text text-darken-4">Lorem
                                     <i class="material-icons right">close</i>
                                 </span>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates asperiores deserunt modi
@@ -348,7 +363,7 @@
 
             <div class="row">
 
-                <div class="col s12 instagram">
+                <div class="col s12 instagram white-text">
                     <img src="images/iconos/instagram-icon.png" alt="instagramlogo">
                     <h5 class="center-align">Síguenos en Instagram</h5>
                     <h5>@ELECTRICSCOOTER</h5>

@@ -18,6 +18,20 @@
 </head>
 
 <body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <form action="#">
+            <input placeholder="E-mail" id="email" type="email" class="validate">
+            <input placeholder="Password" id="password" type="password" class="validate">
+            <span class="helper-text" data-error="Necesario e-mail" data-success=""></span>
+            <button class="btn waves-effect waves-light btn-large indigo accent-2" type="submit" name="action" style="width: 100%">Log In
+                <i class="material-icons right">send</i>
+            </button>
+            <a class="grey-text" href="#">
+                No tengo cuenta
+            </a>
+        </form>
+    </ul>
     <!-- MENU NAVEGACION -->
     <div class="navbar-fixed hide-on-med-and-down">
         <nav>
@@ -42,7 +56,7 @@
                         <a class="waves-effect" href="contacto.html">Contacto</a>
                     </li>
                     <li>
-                        <a class="waves-effect" href="#">
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1">
                             <i class="large material-icons">face</i>
                         </a>
                     </li>
@@ -113,7 +127,7 @@
         <div class="row">
 
             <div class="col s12">
-                <h2 class="center-align">SCOOTER</h2>
+                <h2 class="center-align white-text">Scooter</h2>
                 <h4 class="center-align">Nuestras mejores scooter</h4>
             </div>
         </div>

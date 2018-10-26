@@ -3,6 +3,17 @@ body{
     background: #f2f2f2;
 }
 
+/* MENU LOGIN */
+#dropdown1{
+    width: 300px !important;
+    padding: 50px;
+    background: -moz-linear-gradient(27deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 36%, rgba(158,0,255,1) 100%);
+    background: -webkit-linear-gradient(27deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 36%, rgba(158,0,255,1) 100%);
+    background: linear-gradient(27deg, rgba(0,7,36,1) 0%, rgba(42,74,212,1) 36%, rgba(158,0,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000724",endColorstr="#9e00ff",GradientType=1);
+}
+
+
 /* NAVEGACION */
 #electricblue{
     color: #0080ff;
@@ -67,7 +78,6 @@ nav{
     padding: 20px;
     color: #fff;
     font-family: sans-serif;
-    opacity: 0.8;
 }
 .instagram a{
     padding: 10px;
